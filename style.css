@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body, html{
+
+    height: 100%;
+    margin: 0;
+}
+
+.construction{
+    display: flex;
+}
+
+.nav-bar{
+    width: 100%;
+    font-size:1em;
+    border-radius:4px;
+    border:1px solid #bbb;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0;
+    height: 85px;
+    position: fixed;
+}
+
+
+.logo-nav{
+	width: 80px;
+	height: auto;
+    padding-top: 3px;
+}
+
+.contact{
+    padding-right: 4%;
+    display: inline-block;
+}
+
+.ATW{
+    font-family: Baloo Bhaina 2;
+}
+
+.Row1{
+    font-size: 25px;
+    margin-top: 8px;
+    color:black;
+}
+
+.Row{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main-nav{
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+
+
+.push{
+    margin-left: auto;
+}
+
+li{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.homepage, .contactpage, .aboutpage{
+    display: flex;
+    justify-content: center;
+    padding-top:200px ;
+    margin-bottom: 40px;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+
+.content{
+    height: 2000px;
+}
+
+.footer{
+    background-color: black;
+    height: fit-content; 
+    
+}
+.footer-container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.list-container{
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: ce;
+}
+
+.logofooter{
+    background-color: black;
+    width: 400px;
+    height: auto;
+    padding-top: 30px;
+    flex-basis: auto;
+    padding-left: 100px;   
+
+}
+
+.edit{
+    padding-left: 15px;
+    height: auto;
+
+}.ATW2{
+    font-family: Baloo Bhaina 2;
+    font-weight: bold;
+}
+
+
+.main-nav2{
+    margin: 0em;
+    background-color: black;
+    border: 10px solid black;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    list-style: none;
+    width: 100%;
+    margin-bottom: 30px;
+} 
+
+.main-nav3{
+    margin: 0em;
+    background-color: black;
+    border: 10px solid black;
+    display: flex;
+    justify-content:flex-end;
+    list-style: none;
+    width: 100%;
+} 
+
+.edit2{
+    font-size:12px;
+    color: rgb(255, 255, 255);
+    
+}
+
+.Row2{
+    font-size: 25px;
+    margin-top: 8px;
+    color:black;
+}
+
+.social{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.flag{
+    width: 25px;
+    height: 25px;
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}
