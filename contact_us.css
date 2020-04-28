@@ -5,7 +5,6 @@
 
 
 body, html{
-
     height: 100%;
     margin: 0;
 }
@@ -101,6 +100,7 @@ a{
 }
 
 .footer{
+    margin-top: auto;
     background-color: black;
     height: fit-content; 
     
@@ -112,7 +112,6 @@ a{
 }
 
 .list-container{
-    padding-top: 3%;
     height: 400px;
     background-color: black;
     display: flex;
@@ -139,7 +138,6 @@ a{
 
 
 .main-nav2{
-    padding-top: 0;
     margin: 0em;
     background-color: black;
     border: 10px solid black;
@@ -199,17 +197,19 @@ a{
     width:35px;
     height:35px; 
 }
-.follow, .made{
-    width: 80%;
+.follow{
+    width: auto;
     color:white;
     font-family: Baloo Bhaina 2;
     font-size: 23px;
+    margin-left: 67%;
     border-bottom: 1px solid #FFD700;
     height: 40px;
 }
 
 .madeby{
     color: white;
+    font-size: ;Baloo Bhaina 2
 }
 
 .line2{
@@ -217,20 +217,100 @@ a{
     background-color: black;
     display: flex;
     flex-wrap: wrap;
-    list-style: none;
+    /* list-style: none; */
     width: 100%;
 }
+.contact-section{
+    padding-top: 50px ;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.contact-section h1{
+    text-align: center;
+    color: #ddd;
+}
+.border{
+    width: 100px;
+    height: 10px;
+    background: rgba(20, 20, 20, 0.8);
+    margin: 40px auto;
+}
+.contact-form{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 0;
+    background: rgb(70, 90, 180);
+    padding: 20px 40px;
+    outline: nonrgb(77, 100, 55)
+    color: #ddd;
+    transition: 0.5s;
+}
+.contact-section-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin:16px 0;
+    border:0;  
+    background:#111;
+    padding: 20px 40px;
+    outline: none;
+    color: #ddd;
+    transition: 0.5s;
+ }
+ .contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e;
+ }
+ textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+ }
+ .contact-form-btn{
+     display: flex;
+     justify-content: center;
+     border: 0;
+     background: #0d1e2e;
+     color: #fff;
+     padding: 12px 50px;
+     border-radius: 20px;
+     cursor: pointer;
+     transition: 0.5s;
+}
+.contact-form-btn:hover{
+    background: #2980b9;
+}
 
+.form-title{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
 
-/***********************************************************************
- *  Red Background
- **********************************************************************/
-.red{
-    background: #C655BE; /* Old browsers */
-    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
-    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+.fill{
+    background-color: rgba(20, 20, 20, 0.8);
+    border-radius: 10px;
+}
+
+.send{
+    padding-top: 10px;
+}
+
+.same-line{
+    margin: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    width: 100%;
 }
