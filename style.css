@@ -31,11 +31,11 @@ body, html{
 	width: 330px;
 	height: auto;
     padding-top: 9px;
-    transition: all .3s;
 }
 
 .logo-nav:hover{
     transform: scale(1.1);
+    transition: .3s;
 }
 
 .contact{
@@ -51,22 +51,23 @@ body, html{
     font-size: 25px;
     margin-top: 8px;
     color:black;
-    transition: all .3s;
+
 }
 
 .Row1:hover{
-    transform: scale(1.05)
+    transform: scale(1.05);
+    transition: .3s;
 }
 
 .Row{
     margin-top: 10px;
     font-size: 20px;
     font-weight: bold;
-    transition: all .3s;
 }
 
 .Row:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
+    transition: .3s;
 }
 
 
@@ -202,7 +203,6 @@ a{
  
 #twitter, #facebook, #instagram, #youtube{
     margin-right: 20px;
- 
 }
 
 .flag{
