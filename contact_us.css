@@ -7,10 +7,8 @@
 body, html{
     height: 100%;
     margin: 0;
-}
-
-.construction{
-    display: flex;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .nav-bar{
@@ -21,6 +19,7 @@ body, html{
     background-color: rgba(0, 0, 0, 0.7);
     border: 0;
     height: 85px;
+    margin: 0;
     position: fixed;
 }
 
@@ -100,9 +99,11 @@ a{
 }
 
 .footer{
+    width: 100%;
     margin-top: auto;
     background-color: black;
     height: fit-content; 
+    align-items: flex-end;
     
 }
 .footer-container{
@@ -221,20 +222,19 @@ a{
     width: 100%;
 }
 .contact-section{
-    padding-top: 50px ;
-    background: url(bg.jpg) no-repeat center;
-    background-size: cover;
-    padding: 40px 0;
+    width: 100%;
+    height: auto;
+    padding: 150px 0 40px 0;
 }
 .contact-section h1{
     text-align: center;
     color: #ddd;
 }
 .border{
-    width: 100px;
+    width: 120px;
     height: 10px;
     background: rgba(20, 20, 20, 0.8);
-    margin: 40px auto;
+    margin: 20px auto;
 }
 .contact-form{
     display: flex;
@@ -291,15 +291,18 @@ a{
 }
 
 .form-title{
-    padding-top: 100px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .fill{
     background-color: rgba(20, 20, 20, 0.8);
     border-radius: 10px;
+    color: white;
 }
 
 .send{
@@ -313,4 +316,12 @@ a{
     list-style: none;
     justify-content: center;
     width: 100%;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
