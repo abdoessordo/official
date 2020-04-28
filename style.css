@@ -28,9 +28,14 @@ body, html{
 
 
 .logo-nav{
-	width: 80px;
+	width: 330px;
 	height: auto;
-    padding-top: 3px;
+    padding-top: 9px;
+    transition: all .3s;
+}
+
+.logo-nav:hover{
+    transform: scale(1.1);
 }
 
 .contact{
@@ -127,12 +132,17 @@ a{
 }
 
 .logofooter{
-    background-color: black;
     width:300px;
     height: auto;
     padding-top: 30px;
     flex-basis: auto;
+    transition: all .3s;
 }
+
+.logofooter:hover{
+    transform: scale(1.1);
+}
+
 .edit{
     padding-left: 15px;
     height: auto;
@@ -232,18 +242,4 @@ a{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-end;
-}
-
-
-/***********************************************************************
- *  Red Background
- **********************************************************************/
-.red{
-    background: #C655BE; /* Old browsers */
-    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
-    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
 }
