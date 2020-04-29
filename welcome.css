@@ -23,7 +23,7 @@ body, html{
     display: flex;
     justify-content: center;
     border: 0;
-    background: #b52222;
+    background: #3B41A6;
     color: #fff;
     padding: 25px 70px;
     border-radius: 25px;
@@ -35,7 +35,7 @@ body, html{
 }
 .continue-btn:hover{
     transform: scale(1.1);
-    background-color: #850808;
+    background-color: #b8530b;
 }
 
 h1{
@@ -66,8 +66,8 @@ a{
 
 .social{
     padding-top: 500px;
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     border-radius: 30px;
     padding: 5px;
     transition: all .3s;

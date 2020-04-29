@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    margin: 0;
+    background: url(bg.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.ourteam{
+  display: flex;
+    flex-wrap: wrap;
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+    justify-content: center;
+    padding: 160px 0 30px 0;
+    font-weight: bold;
+    color: #3B41A6;
+
+}
+
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.team_member{
+    background: #e9edf2;
+
+    margin: 5px;
+    /* margin-bottom: 50px; */
+    width: 350px;
+    height: 330px;
+    padding: 20px;
+    line-height: 20px;
+    border-radius: 20px;
+    color: #8e8b8b;
+    transition: .8s;
+    box-shadow:4px 4px 5px #888888; 
+}
+
+.team_member:hover{
+    transform: scale(1.05);
+    box-shadow:8px 8px 10px #888888; 
+    transition: .8s;
+}
+
+h3{
+    color: #3B41A6;
+    font-size: 26px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.role{
+    color: #8E8B8B;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.team-list{
+    display: flex;
+    list-style: none;
+}
+
+.txt{
+    color: #474b4f;
+    text-align: justify;
+}

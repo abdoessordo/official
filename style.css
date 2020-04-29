@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -7,8 +8,6 @@
 body, html{
     height: 100%;
     margin: 0;
-    background: url(bg.jpg) no-repeat center;
-    background-size: cover;
 }
 
 .construction{
@@ -138,10 +137,6 @@ a{
     padding-top: 30px;
     flex-basis: auto;
     transition: all .3s;
-}
-
-.logofooter:hover{
-    transform: scale(1.1);
 }
 
 .edit{
