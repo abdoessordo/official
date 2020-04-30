@@ -4,13 +4,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-
-body, html{
+.container{
+    width: 100%;
     height: 100%;
-    margin: 0;
-}
-
-.construction{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
     display: flex;
 }
 
@@ -23,8 +22,8 @@ body, html{
     border: 0;
     height: 85px;
     position: fixed;
+    z-index: 3;
 }
-
 
 .logo-nav{
 	width: 330px;
@@ -231,10 +230,3 @@ a{
     width: 100%;
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
